@@ -1,6 +1,5 @@
 package com.example.FGCNotebook;
 
-import java.lang.reflect.Array;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,9 +11,9 @@ public class Constants {
     public static final Map<String, String[]> getGameData(){
         Map<String, String[]> charMap = new HashMap<>();
 
-        charMap.put("Mortal Kombat 1", Constants.MK1);
-        charMap.put("StreetFighter 6", Constants.SF6);
-        charMap.put("Tekken 8", Constants.Tekken8);
+        charMap.put("Mortal_Kombat_1", Constants.MK1);
+        charMap.put("Street_Fighter_6", Constants.SF6);
+        charMap.put("Tekken_8", Constants.Tekken8);
 
         return charMap;
     }
